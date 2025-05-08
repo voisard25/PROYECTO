@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.formContainer {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #003366;
+}
+
+.passwordContainer {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.toggleButton {
+    position: absolute;
+    right: 10px;
+    top: 32px;
+    background: none;
+    border: none;
+    color: #003366;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.strengthIndicator {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.weak {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.medium {
+    background-color: #fff8e1;
+    color: #ff8f00;
+}
+
+.strong {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.generateButton {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.generateButton:hover {
+    background-color: #002244;
+}
+
+.confirmButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.confirmButton:hover {
+    background-color: #218838;
+}
+
+.successMessage {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.loginLink {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.loginLink a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.loginLink a:hover {
+    text-decoration: underline;
+}

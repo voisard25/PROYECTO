@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.menuIcon {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    z-index: 100;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sideMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f8f8;
+    transition: left 0.3s ease;
+    z-index: 99;
+    padding-top: 80px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sideMenu.open {
+    left: 0;
+}
+
+.sideMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideMenu li {
+    margin-bottom: 15px;
+}
+
+.sideMenu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.sideMenu a:hover {
+    background-color: #e0e0e0;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sauText {
+    font-size: 5em;
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .sideMenu {
+        width: 100%;
+        left: -100%;
+    }
+    
+    .sauText {
+        font-size: 3em;
+    }
+}
