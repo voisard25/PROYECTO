@@ -1,12 +1,30 @@
-# React + Vite
+Sistema de Gestión Integral de Pasantías – UTN San Francisco
+Este proyecto propone el diseño e implementación de un sistema orientado a optimizar la gestión de pasantías universitarias, en el ámbito de la Secretaría de Asuntos Universitarios (SAU) de la UTN – Facultad Regional San Francisco.  
+Incluye automatizaciones, mejoras en la experiencia del usuario y funcionalidades que aseguran la Seguridad, Auditoría y Usabilidad (SAU) del proceso.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Actores del sistema
 
-Currently, two official plugins are available:
+- Estudiante
+- Empresa
+-Administrativo (SAU)
+- Sistema
+Este repositorio contiene:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `Documentación/` → Diagramas BPMN, Casos de Uso, Reglas de Negocio y Descripción Funcional.
+- `Diseño/` → Proceso de negocio detallado y estructura del sistema.
+- `CasosDeUso/` → Documentos formales individuales por cada funcionalidad automatizada.
+- `Algoritmos/` → Lógica del motor de coincidencia y autocompletado.
+- `InformeFinal/` → Documento consolidado con la propuesta general del sistema.
+- `README.md` → Archivo actual con información de referencia general del proyecto.
+##  Tecnologías utilizadas
+- **React**
+- **Vite**
+- **React Router DOM**
+- **CSS (estilos simples y responsivos)**
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📎 Enlace al proyecto
+
+📂 Google Drive del proyecto:  https://drive.google.com/drive/folders/1XiUrTXp6bZn2uX532_wu0UFv0qQRGJuN
+
+ **Diseño de Sistemas de Informacion** – UTN San Francisco  
