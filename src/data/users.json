@@ -1,0 +1,12 @@
+{
+  "admin": [
+    { "id": 1, "usuario": "admi", "password": "admi123" }
+  ],
+  "empresas": [
+    { "id": 1, "razonSocial": "TechnoCorp SA", "cuit": 30709999211, "password": "Empresa123" }
+  ],
+  "estudiantes": [
+    { "id": 1, "nombre": "María Díaz", "legajo": 87543, "password": 40256987 },
+    { "id": 2, "nombre": "Lucas Pérez", "legajo": 89621, "password": 38544771 }
+  ]
+}

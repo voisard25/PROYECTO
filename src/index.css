@@ -1,5 +1,9 @@
 /* Estilos comunes para toda la aplicación */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
+    @apply bg-gray-50;
     font-family: Arial, sans-serif;
     color: #333;
     margin: 0;
